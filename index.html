@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(32, 147, 175);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(51, 92, 118);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+      }
+
+      nav ul li a:hover {
+        color: rgb(93, 93, 165);
+        font-size: 1.1rem;
+      }
+      main hr{
+        border: 0;
+        background-color: blanchedalmond;
+        height: 1.5px;
+        margin: 20px 50px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .leftSection .button{
+        padding: 50px 0;
+      }
+      .leftSection .btn {
+        padding: 12px;
+        background-color: rgb(32, 147, 175); 
+        color: whitesmoke;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 400px;
+      }
+      .purple {
+        color: rgb(77, 41, 110);
+      }
+      .text-gray{
+        color: rgb(57, 52, 52);
+      }
+      #element{
+        color: black;
+      }
+      .secondSection{
+        max-width: 80vw;
+         margin: auto;
+         height: 80vh;
+      }
+      .secondSection h1{
+        font-size: 1.9rem;
+      }
+      .secondSection .box{
+        background:whitesmoke;
+        width: 74vw;
+        height: 1px;
+        margin: 30px 0;
+        display: flex;
+      }
+      .secondSection .vertical{
+        height: 95px;
+        width: 1px;
+        background-color:white;
+        margin: 0 130px;
+      }
+      .image-top{
+        width: 23px;
+        position: relative;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .vertical-title{
+        position:relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: rgb(55, 45, 45);
+        width: 150px;
+        font-size: 9px;
+      }
+      footer{
+        background-color:skyblue;
+        
+      }
+      .footer{
+        display:flex; 
+        margin: 23px 123px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style:none;
+      }
+      .footer > div{
+        width: 233px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        padding: 12px 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rahul's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/"> Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hey there, I am <span class="purple">Rahul</span>
+
+          <div>And I am a Passionate</div>
+          <!-- <div>Fullstack Developer</div> -->
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github </button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" srcset="" />
+        </div>
+      </section>
+      <hr>
+      <section class="secondSection">
+        <span class="text-gray"> What I have done so far</span>
+        <h1>Experience</h1>
+
+        <div class="box">
+            <div class="vertical">
+              <img src="developer.png" alt="" class="image-top">
+              <div class="vertical-title">
+              Front-end-Developer (2021-2023)
+              </div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident illo officia vero. Nemo pariatur maiores voluptatum, totam, ducimus numquam asperiores
+              </div>
+            </div>
+            <div class="vertical">
+              <img src="developer.png" alt="" class="image-top">
+              <div class="vertical-title">
+              Backend Developer (2023-2024)
+              </div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident illo officia vero. Nemo pariatur maiores voluptatum, totam, ducimus numquam asperiores
+              </div>
+            </div>
+            <div class="vertical">
+              <img src="developer.png" alt="" class="image-top">
+              <div class="vertical-title">
+              FullStack Developer (2024-2025)
+              </div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident illo officia vero. Nemo pariatur maiores voluptatum, totam, ducimus numquam asperiores
+              </div>
+            </div>
+            <div class="vertical">
+              <img src="developer.png" alt="" class="image-top">
+              <div class="vertical-title">
+              MernStack-Developer (2024-2025)
+              </div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident illo officia vero. Nemo pariatur maiores voluptatum, totam, ducimus numquam asperiores
+              </div>
+            </div>
+            
+            
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Rahul's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+<ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Services</li>
+</ul>
+        </div>
+        <div class="footer-third">
+
+        </div>
+        <div class="footer-fourth">
+
+        </div>
+      </div>
+      <div class="footer-rights">
+         Copyright &#169; rahulportfolio.com | All rights reseved 
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['FullStack Developer','MernStack Developer','Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+  </body>
+</html>
